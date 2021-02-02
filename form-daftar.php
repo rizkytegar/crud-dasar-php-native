@@ -51,8 +51,6 @@ placeholder="nama sekolah" />
 <input type="submit" value="Daftar" name="daftar" />
 </p>
 </fieldset>
-        </fiedldset>
-
     </form>
 </body>
 </html>

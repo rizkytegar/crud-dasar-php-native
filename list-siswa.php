@@ -18,11 +18,12 @@
     <thead>
     <tr>
     <th>No</th>
-    <tr>Nama</tr>
-    <tr>Alamat</tr>
-    <tr>Jenis Kelamin</tr>
-    <tr>Agama</tr>
-    <tr>Tindakan</tr>
+    <th>Nama</th>
+    <th>Alamat</th>
+    <th>Jenis Kelamin</th>
+    <th>Agama</th>
+    <th>Sekolah</th>
+    <th>Tindakan</th>
     </tr>
     </thead>
     <tbody>

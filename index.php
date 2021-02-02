@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +8,12 @@
 </head>
 <body>
     <header>
-    <h3>Pendaftaran Siswa Baaru</h3>
+    <h3>Pendaftaran Siswa Baru</h3>
     <h1>SMK CODING</h1>
     </header>
     <h4>Menu</h4>
     <nav>
-        <?php if(isset($_GET['status']))?>
+        <?php if(isset($_GET['status'])):?>
         <p>
             <?php
             if($_GET['status'] == 'sukses'){
@@ -22,6 +23,7 @@
             }
             ?>
         </p>
+      <?php endif;?>
     <ul>
     <a href="form-daftar.php">Daftar Baru</a>
     <a href="list-siswa.php">Pendaftar</a>
